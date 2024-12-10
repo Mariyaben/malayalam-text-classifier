@@ -92,7 +92,7 @@ st.write("This app predicts the category of a Malayalam text using unigram token
 def load_dataset():
     try:
         # Load the preloaded train.csv file
-        df = pd.read_csv("D:\\cl\\train.csv")
+        df = pd.read_csv("train.csv")
         st.write("Dataset loaded successfully.")
         return df
     except Exception as e:
